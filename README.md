@@ -24,6 +24,8 @@ Simply do:
 node app
 ```
 
+or use the [forever](https://www.npmjs.com/package/forever) module to run the bot continously.
+
 ## Commands
 ```
 ;play  or  ;play <Youtube URL> - Adds songs to the front of the queue and plays it immediately.
