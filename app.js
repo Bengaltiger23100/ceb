@@ -4,7 +4,7 @@ var mysql = require('mysql2');
 var db = require(`./db`);
 var log = require(`./log`);
 
-const token = `BOT_TOKEN`;
+const token = process.env.BOT_TOKEN;
 
 const client = new Discord.Client();
 const commandPrefix = `;`;
